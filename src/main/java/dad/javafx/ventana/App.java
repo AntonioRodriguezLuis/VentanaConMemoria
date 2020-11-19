@@ -18,6 +18,7 @@ public class App extends Application{
 	public void start(Stage primaryStage) {	 
 		Scene scene = new Scene(controller.getView());
 		primaryStage.setX(controller.getPosX());
+		primaryStage.setY(controller.getPosY());
 		primaryStage.setTitle("Ventana con Memoria");
 		primaryStage.setScene(scene);
 		primaryStage.show();
